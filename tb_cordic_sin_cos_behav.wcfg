@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cordic_sin_cos_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_cordic_sin_cos" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="993650000fs"></ZoomStartTime>
+      <ZoomEndTime time="1000950001fs"></ZoomEndTime>
+      <Cursor1Time time="993000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="logic" fp_name="/tb_cordic_sin_cos/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cordic_sin_cos/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cordic_sin_cos/angle">
+      <obj_property name="ElementShortName">angle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">angle[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cordic_sin_cos/gain">
+      <obj_property name="ElementShortName">gain[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gain[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cordic_sin_cos/sine">
+      <obj_property name="ElementShortName">sine[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sine[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cordic_sin_cos/cosine">
+      <obj_property name="ElementShortName">cosine[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cosine[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cordic_sin_cos/clk_period">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

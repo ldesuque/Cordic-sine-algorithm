@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CORDIC_FPGA.srcs/sources_1/imports/vhdl/cordic_iterative_pkg.vhd" \
+"../../../../CORDIC_FPGA.srcs/sources_1/imports/vhdl/cordic_iterative_int.vhd" \
+"../../../../CORDIC_FPGA.srcs/sources_1/imports/vhdl/cordic_iterative_wb.vhd" \
+
+# Do not sort compile order
+nosort

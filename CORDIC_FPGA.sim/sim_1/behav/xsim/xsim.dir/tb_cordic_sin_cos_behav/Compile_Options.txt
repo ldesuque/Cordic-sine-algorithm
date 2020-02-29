@@ -1,0 +1,1 @@
+-wto "9b5e061b906344399c5ce9da5dd9f539" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "tb_cordic_sin_cos_behav" "xil_defaultlib.tb_cordic_sin_cos" -log "elaborate.log" 
